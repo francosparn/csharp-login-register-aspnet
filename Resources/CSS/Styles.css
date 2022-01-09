@@ -1,0 +1,86 @@
+﻿*{
+    font-family: 'Century Gothic';
+}
+
+/* Login and Register */
+.background {
+    background-image: linear-gradient(180deg, #9fb7f5 0, #6c90d8 50%, #2c6bbb 100%);
+    min-height: 100vh;
+}
+
+.form-login,
+.form-register {
+    padding: 15px 30px 0 30px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.img-login{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"]{
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 1px solid #9db9f2;
+}
+
+.btn-login {
+    background-color: #6c90d8;
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-login:hover {
+    background-color: #8ca3d4;
+}
+
+.alert-error {
+    text-align: center;
+    font-weight: 600;
+    display: block;
+    color: crimson;
+}
+
+.alert-ok {
+    text-align: center;
+    font-weight: 600;
+    display: block;
+    color: forestgreen;
+}
+
+.btn-back,
+.btn-register{
+    border: none;
+    background-color: transparent;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* Index */
+.btn-logout {
+    border: none;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: #FFF;
+    background-color: #6c90d8;
+}
